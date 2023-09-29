@@ -97,7 +97,9 @@ nav>i{
     position: absolute;
     top: -1px;
     font-size: 9px;
-    background-color: #538CEE;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #538CEE; 
     color: white;
     font-weight: 700;
     padding-inline: 5px;
@@ -201,7 +203,15 @@ table{
     font-size: 14px;
     color:#666666;
 }
-
+.made-by{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fcfcfc;
+    font-weight: 700;
+}
 
 @media screen and (max-width: 920px){
     nav svg{
@@ -276,6 +286,7 @@ table{
     }
     .catagories{
         width: 100%;
+        
     }
     .catagories>img{
         margin: -10px;
