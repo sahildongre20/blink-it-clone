@@ -15,5 +15,5 @@ This project is a clone of the Blinkit app's user interface, designed to provide
 
 
 To explore this Blinkit Clone project, follow these steps:
-website: [Blinkit clone](<a target="_blank" href="https://sahildongre20.github.io/blink-it-clone/">)
+website: [Blinkit clone](https://sahildongre20.github.io/blink-it-clone/)
 
