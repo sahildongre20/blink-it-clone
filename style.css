@@ -1,7 +1,11 @@
 
-nav{
-    position: static;
+header{
+    position: sticky;
     top: 0;
+    z-index: 99;
+}
+nav{
+    background-color: #FFF;
 }
 .vertical-line{
     border-left: 1px solid #f5f5f5;
@@ -63,6 +67,7 @@ nav>i{
 .catagories{
     justify-content: space-between;
     padding-inline: 8vw;
+
 }
 .card-container{
     width: 82vw;
@@ -91,7 +96,6 @@ nav>i{
     display: inline-block;
     margin: 10px;
     position: relative;
-
 }
 .special-offer{
     position: absolute;
@@ -153,7 +157,7 @@ footer{
 
 }
 .foot-row1{
-    margin-top: 20px;
+    margin-top: 20px;   
 }
 .icons{
     width: 40px;
@@ -166,7 +170,7 @@ footer{
     font-size: 20px;
 }
 .row2-text{
-    flex: 0.3;
+    flex: 0.3;  
     font-size: 12px;
     color: #666666;
     align-items: center;
@@ -261,6 +265,10 @@ table{
 }
 
 @media screen and (max-width: 480px) {
+    header{
+        position: static;
+
+    }
     nav{
         flex-direction: column;
     }
